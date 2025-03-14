@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size:75px;
+    padding-top:50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h2:hover{
+    color: #739552;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+h3{
+    font-size:75px;
+    padding-top:50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h3:hover{
+    color: #739552;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+h4{
+    font-size:75px;
+    padding-top:50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+h4:hover{
+    color: #739552;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}

@@ -29,6 +29,7 @@ body{
     text-align: center;
     position:absolute;
     letter-spacing: 5px;
+    
 }
 
 .subtitulo{
@@ -43,6 +44,8 @@ nav{
     align-items: center;
     background-color: #333;
     padding: 18px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+
 }
 
 nav a{
@@ -70,6 +73,23 @@ nav a:hover{
     background-color: #739552;
     border-radius:10px;
     padding: 10px;
+}
+
+.pecasImg:hover{
+    transition: transform 0.5s ease;
+    transform: scale(2.5);
+    color:#739552;
+}
+
+#tabuleiro{
+    background-color: #739552;
+    border-radius: 20px;
+}
+
+#tabuleiro:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.5);
+    color:#739552;
 }
 
 .espacoPeca{
